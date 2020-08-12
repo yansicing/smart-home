@@ -1,0 +1,10 @@
+CC = gcc  
+MAINC = calc.c
+EXEC = calc
+
+CFLAGS = `pkg-config --cflags --libs gtk+-2.0`
+OPTIONS = -Wall
+main:  
+	$(CC)  $(MAINC)  -o $(EXEC) $(CFLAGS) $(OPTIONS)
+clean:
+	rm $(EXEC) -rf

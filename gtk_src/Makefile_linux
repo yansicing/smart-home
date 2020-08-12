@@ -1,0 +1,26 @@
+src += main.c
+src += home_init.c
+#src += login_display.c
+#src += home_page_display.c
+#src += led_control_display.c
+#src += gprs_display.c
+#src += temp_humi_display.c
+#src += agreement.c
+src += ./sungtk_interface/sungtk_interface.c
+src += ./keyboard/gtk_keyboard.c
+#src += ./encoding/gb2312_ucs2.c
+target = play 
+
+
+cc = gcc 
+
+obj = $(src:%.c=%.o)
+
+cflags = `pkg-config --cflags --libs gtk+-2.0` `pkg-config --cflags --libs libglade-2.0` -Wall
+
+$(target):$(obj)
+	$(cc) $^ -o $@ $(cflags)
+%.o:%.c
+	$(cc) -c $< -o $@  $(cflags)
+clean:
+	rm *.o $(targer) -rf

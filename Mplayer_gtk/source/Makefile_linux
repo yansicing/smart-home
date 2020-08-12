@@ -1,0 +1,20 @@
+cc = gcc  
+src += main.c
+src += player_display.c
+# src += deal_song_list.c
+# src += player_control.c
+src += ./sungtk_interface/sungtk_interface.c
+# src += ./LRC/lyrics_process.c
+# src += ./encoding/gb2312_ucs2.c
+target = demo 
+
+obj = $(src:%.c=%.o)
+
+cflags = `pkg-config --cflags --libs gtk+-2.0` -Wall -lpthread
+
+$(target):$(obj) types.h
+	$(cc) $^ -o $@ $(cflags)
+%.o:%.c
+	$(cc) -c $< -o $@  $(cflags)
+clean:
+	rm *.o $(targer) -rf

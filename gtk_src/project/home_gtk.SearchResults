@@ -1,0 +1,2 @@
+---- SIGCHLD Matches (1 in 1 files) ----
+Home_init.c (\\172.20.220.71\huibo\smarthome\gtk_src):	signal(SIGCHLD, son_process_killed_deal);

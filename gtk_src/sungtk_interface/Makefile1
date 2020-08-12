@@ -1,0 +1,10 @@
+CC = gcc  
+MAINC = window_with_button.c sungtk_interface.c
+EXEC = window_with_button
+
+CFLAGS = `pkg-config --cflags --libs gtk+-2.0`
+
+main:  
+	$(CC)  $(MAINC)  -o $(EXEC) $(CFLAGS)
+clean:
+	rm $(EXEC) -rf

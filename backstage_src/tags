@@ -1,0 +1,459 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BEE_BYTE	gpio_red/gpio_red.c	14;"	d	file:
+BIT	gpio_red/s5pv210-gpio.h	25;"	d
+BIT	send_msg_encoding/gb2312_ucs2.c	8;"	d	file:
+CC	send_message/Makefile	/^CC = arm-linux-gcc$/;"	m
+CENTER_NUM	send_message/send_message.c	15;"	d	file:
+CHESS_FIFO_PATH	infrared/infrared.h	10;"	d
+CLIENT_CONTROL_PORT	agreement.h	25;"	d
+CLIENT_LOCAL_HOST	agreement.h	18;"	d
+CLIENT_LOCAL_RECV_PORT	agreement.h	23;"	d
+CLIENT_REMOTE_CONTROL	agreement.h	20;"	d
+CLIENT_WEB	agreement.h	19;"	d
+CLIENT_WEB_RECV_PORT	agreement.h	24;"	d
+CMD_BACK	mplayer_control/mplayer_control.h	/^	CMD_BACK,\/\/上一曲0$/;"	e	enum:player_cmd_num
+CMD_BCKWORD	mplayer_control/mplayer_control.h	/^	CMD_BCKWORD,\/\/快退2$/;"	e	enum:player_cmd_num
+CMD_CHANGESONG	mplayer_control/mplayer_control.h	/^	CMD_CHANGESONG\/\/切换歌曲8$/;"	e	enum:player_cmd_num
+CMD_FORWORD	mplayer_control/mplayer_control.h	/^	CMD_FORWORD,\/\/快进3$/;"	e	enum:player_cmd_num
+CMD_FRONT	mplayer_control/mplayer_control.h	/^	CMD_FRONT,\/\/下一曲1$/;"	e	enum:player_cmd_num
+CMD_MUTE1	mplayer_control/mplayer_control.h	/^	CMD_MUTE1,\/\/静音6$/;"	e	enum:player_cmd_num
+CMD_PAUSE	mplayer_control/mplayer_control.h	/^	CMD_PAUSE,\/\/暂停4$/;"	e	enum:player_cmd_num
+CMD_PLAY_MODEL	mplayer_control/mplayer_control.h	/^    CMD_PLAY_MODEL,\/\/播放模式7$/;"	e	enum:player_cmd_num
+CMD_VOLUME	mplayer_control/mplayer_control.h	/^	CMD_VOLUME,\/\/控制音量5$/;"	e	enum:player_cmd_num
+ETH_NAME	deal_IP/deal_IP.c	16;"	d	file:
+EXEC_NAME	send_message/Makefile	/^EXEC_NAME = send_message.o$/;"	m
+EXEC_PATH	send_message/Makefile	/^EXEC_PATH = .\/$/;"	m
+FIFO_FD	mplayer_control/mplayer_control.h	/^}FIFO_FD;$/;"	t	typeref:struct:__anon6
+FIFO_PATH	mplayer_control/mplayer_control.h	16;"	d
+FLAG	send_message/Makefile	/^FLAG = -Wall $/;"	m
+GET_IP_FLAG	deal_IP/deal_IP.h	4;"	d
+GPIO_CLR_PIN	gpio_red/s5pv210-gpio.h	13;"	d
+GPIO_SET_PIN	gpio_red/s5pv210-gpio.h	14;"	d
+GPIO_SET_PIN_DRV0	gpio_red/s5pv210-gpio.h	21;"	d
+GPIO_SET_PIN_DRV1	gpio_red/s5pv210-gpio.h	22;"	d
+GPIO_SET_PIN_DRV2	gpio_red/s5pv210-gpio.h	23;"	d
+GPIO_SET_PIN_IN	gpio_red/s5pv210-gpio.h	11;"	d
+GPIO_SET_PIN_OUT	gpio_red/s5pv210-gpio.h	10;"	d
+GPIO_SET_PIN_OUT	led_control/led_control.h	4;"	d
+GPIO_SET_PULL_DIS	gpio_red/s5pv210-gpio.h	17;"	d
+GPIO_SET_PULL_DOWN	gpio_red/s5pv210-gpio.h	18;"	d
+GPIO_SET_PULL_UP	gpio_red/s5pv210-gpio.h	19;"	d
+GPRS_CALL	send_message/send_message.h	10;"	d
+GPRS_HANG_UP	send_message/send_message.h	11;"	d
+GPRS_SEND_MSG	send_message/send_message.h	9;"	d
+GSM_7BIT	send_message/gprs_config.h	26;"	d
+GSM_8BIT	send_message/gprs_config.h	27;"	d
+GSM_UCS2	send_message/gprs_config.h	28;"	d
+HUMITURE_GET	get_humiture/get_humiture.h	4;"	d
+IGNORE_PORT	agreement.h	26;"	d
+INFRARDE_DEV_PATH	infrared/infrared.h	5;"	d
+LED_GET_FALG	led_control/led_control.h	7;"	d
+LED_SET_FLAG	led_control/led_control.h	6;"	d
+LOGIN_JUDGE_FLAG	login/login.h	4;"	d
+LOOPBACK_ADDR_IP	agreement.h	31;"	d
+LRC_PATH	mplayer_control/mplayer_control.h	17;"	d
+MAX_UNI_INDEX	send_message/gb2312_ucs2.c	/^const unsigned short MAX_UNI_INDEX = 6808; \/*6768*\/$/;"	v
+MAX_UNI_INDEX	send_msg_encoding/gb2312_ucs2.c	/^const unsigned short MAX_UNI_INDEX = 6808; \/*6768*\/$/;"	v
+MPLAYER_CHANGE_SONG_FLAG	mplayer_control/mplayer_control.h	10;"	d
+MPLAYER_FIFO_PATH	infrared/infrared.h	6;"	d
+MPLAYER_GET_LIST_FLAG	mplayer_control/mplayer_control.h	11;"	d
+MPLAYER_MSG_FIFO_PATH	infrared/infrared.h	7;"	d
+MPLAYER_PAUSE_FLAG	mplayer_control/mplayer_control.h	8;"	d
+MPLAYER_STATR_FLAG	mplayer_control/mplayer_control.h	12;"	d
+MPLAYER_VOLUME_FLAG	mplayer_control/mplayer_control.h	9;"	d
+MUSIC_WAV	infrared/infrared.h	8;"	d
+OBJ	send_message/Makefile	/^OBJ = $(SRC:%.c=%.o)$/;"	m
+OPTION	send_message/Makefile	/^OPTION = -lpthread$/;"	m
+PASSWORD	login/login.c	6;"	d	file:
+PATH	mplayer_control/mplayer_control.h	/^}PATH;$/;"	t	typeref:struct:__anon4
+PATH_SIZE	mplayer_control/mplayer_control.h	20;"	d
+PDU_type	send_message/gprs_config.h	/^	char PDU_type;	\/\/短消息中心号码类型	1字节$/;"	m	struct:__mg323_msg_type	access:public
+PLAYER	mplayer_control/mplayer_control.h	/^}PLAYER;$/;"	t	typeref:struct:__anon7
+PLAYER_PROCESS	mplayer_control/mplayer_control.h	/^}PLAYER_PROCESS;$/;"	t	typeref:struct:__anon5
+PWD_ERR	login/login.c	10;"	d	file:
+RED_BYTE	gpio_red/gpio_red.c	13;"	d	file:
+RIGHT	login/login.c	8;"	d	file:
+S3C2410_SERIAL0	send_message/send_message.h	4;"	d
+S3C2410_SERIAL1	send_message/send_message.h	5;"	d
+S3C2410_SERIAL2	send_message/send_message.h	6;"	d
+S3C2410_SERIAL3	send_message/send_message.h	7;"	d
+SEND_MSG_GB2312_TO_UCS2	send_message/send_message.h	14;"	d
+SEND_MSG_UTF8_TO_UCS2	send_message/send_message.h	13;"	d
+SERVER_LOCAL_HOST	agreement.h	17;"	d
+SERVER_LOCAL_RECV_PORT	agreement.h	22;"	d
+SET_IP_FLAG	deal_IP/deal_IP.h	5;"	d
+SM_PARAM	send_message/gprs_config.h	/^}SM_PARAM;$/;"	t	typeref:struct:__mg323_msg_type
+SONG_LIST	mplayer_control/mplayer_control.h	/^}SONG_LIST;$/;"	t	typeref:struct:__anon3
+SONG_PATH	mplayer_control/mplayer_control.h	15;"	d
+SONG_SIZE	mplayer_control/mplayer_control.h	21;"	d
+SONG_STATUS	mplayer_control/mplayer_control.h	/^}SONG_STATUS;$/;"	t	typeref:struct:__anon2
+SRC	send_message/Makefile	/^SRC := #$/;"	m
+SUNHOME_GPRS_CALL_CMD	agreement.h	42;"	d
+SUNHOME_GPRS_HANG_UP_CMD	agreement.h	43;"	d
+SUNHOME_GPRS_SEND_MSG_CMD	agreement.h	41;"	d
+SUNHOME_HEAD	agreement.h	14;"	d
+SUNHOME_LED_GET_CMD	agreement.h	37;"	d
+SUNHOME_LED_SET_CMD	agreement.h	36;"	d
+SUNHOME_LOCAL_IP_GET_CMD	agreement.h	46;"	d
+SUNHOME_LOCAL_IP_SET_CMD	agreement.h	45;"	d
+SUNHOME_LOGIN_CMD	agreement.h	34;"	d
+SUNHOME_MAX_LENGTH	agreement.h	28;"	d
+SUNHOME_MPLAYER_CHANGESONG_CMD	agreement.h	50;"	d
+SUNHOME_MPLAYER_GET_SONGLIST_CMD	agreement.h	51;"	d
+SUNHOME_MPLAYER_PAUSE_CMD	agreement.h	48;"	d
+SUNHOME_MPLAYER_START_CMD	agreement.h	52;"	d
+SUNHOME_MPLAYER_VOLUME_ADD	agreement.h	53;"	d
+SUNHOME_MPLAYER_VOLUME_CMD	agreement.h	49;"	d
+SUNHOME_MPLAYER_VOLUME_SUB	agreement.h	54;"	d
+SUNHOME_TEMP_HUMI_GET_CMD	agreement.h	39;"	d
+THREADS_LIMIT	main.c	12;"	d	file:
+TOTAL_SONG_NUM	mplayer_control/mplayer_control.h	18;"	d
+TP_CLE	send_message/gprs_config.h	/^	char TP_CLE;	\/\/被叫号码长度$/;"	m	struct:__mg323_msg_type	access:public
+TP_CN	send_message/gprs_config.h	/^	char *TP_CN;\/\/$/;"	m	struct:__mg323_msg_type	access:public
+TP_CPT	send_message/gprs_config.h	/^	char TP_CPT;	\/\/被叫PDU_type$/;"	m	struct:__mg323_msg_type	access:public
+TP_DCS	send_message/gprs_config.h	/^	char TP_DCS;	\/\/数据编码标准$/;"	m	struct:__mg323_msg_type	access:public
+TP_HEADER	send_message/gprs_config.h	/^	char TP_HEADER;	\/\/文件头字节--设置短信息发送接收数据$/;"	m	struct:__mg323_msg_type	access:public
+TP_MR	send_message/gprs_config.h	/^	char TP_MR;		\/\/信息类型$/;"	m	struct:__mg323_msg_type	access:public
+TP_PID	send_message/gprs_config.h	/^	char TP_PID;	\/\/协议表示$/;"	m	struct:__mg323_msg_type	access:public
+TP_SC	send_message/gprs_config.h	/^	char *TP_SC;	\/\/短消息中心号码	不确定几个字节  手机号12字节$/;"	m	struct:__mg323_msg_type	access:public
+TP_SCA	send_message/gprs_config.h	/^	char TP_SCA;	\/\/短消息中心地址长度，决定着号码类型+号码的长度  1字节$/;"	m	struct:__mg323_msg_type	access:public
+TP_UD	send_message/gprs_config.h	/^	char*TP_UD;		\/\/用户数据指针$/;"	m	struct:__mg323_msg_type	access:public
+TP_UDL	send_message/gprs_config.h	/^	char TP_UDL;	\/\/用户数据长度$/;"	m	struct:__mg323_msg_type	access:public
+TP_VP	send_message/gprs_config.h	/^	char TP_VP;		\/\/允许时间$/;"	m	struct:__mg323_msg_type	access:public
+USERNAME	login/login.c	5;"	d	file:
+USER_AND_PWD_ERR	login/login.c	11;"	d	file:
+USER_ERR	login/login.c	9;"	d	file:
+Uart_Init	send_message/uart_init.c	/^int Uart_Init(int num)$/;"	f	signature:(int num)
+_AGREEMENT_H_	agreement.h	2;"	d
+_DEAL_SONG_LIST_H_	mplayer_control/deal_song_list.h	2;"	d
+_GET_IP_H	deal_IP/deal_IP.h	2;"	d
+_GPIO_RED_H	gpio_red/gpio_red.h	2;"	d
+_INFRARED_H	infrared/infrared.h	2;"	d
+_LOGIN_H_	login/login.h	2;"	d
+_MPLAYER_CONTROL_H_	mplayer_control/mplayer_control.h	2;"	d
+_RECEIVE_BAG_H_	receive_bag.h	2;"	d
+_UART_INIT_H_	send_message/uart_init.h	2;"	d
+__GB2312_UCS2_H__	send_message/gb2312_ucs2.h	2;"	d
+__GB2312_UCS2_H__	send_msg_encoding/gb2312_ucs2.h	2;"	d
+__GET_HUMITURE_H__	get_humiture/get_humiture.h	2;"	d
+__GPIODRIVER_H__	gpio_red/s5pv210-gpio.h	2;"	d
+__GPRS_CONFIG_MG323_HUAWEI_h__	send_message/gprs_config.h	6;"	d
+__LED_CONTROL_H__	led_control/led_control.h	2;"	d
+__SEND_MESSAGE_H__	send_message/send_message.h	2;"	d
+__THREAD_POOL_H__	thread_pool.h	2;"	d
+__anon1::destroy_flag	thread_pool.h	/^	int destroy_flag;			\/* 是否销毁线程池 , 0销毁，1不销毁*\/$/;"	m	struct:__anon1	access:public
+__anon1::queue_head	thread_pool.h	/^	pool_task *queue_head;	\/* 链表结构，线程池中所有等待任务 *\/$/;"	m	struct:__anon1	access:public
+__anon1::queue_lock	thread_pool.h	/^	pthread_mutex_t queue_lock;	\/* 锁 *\/$/;"	m	struct:__anon1	access:public
+__anon1::queue_ready	thread_pool.h	/^	pthread_cond_t queue_ready;	\/* 条件变量 *\/$/;"	m	struct:__anon1	access:public
+__anon1::task_in_queue	thread_pool.h	/^	int task_in_queue;			\/* 当前等待队列的任务数目 *\/$/;"	m	struct:__anon1	access:public
+__anon1::threadid	thread_pool.h	/^	pthread_t *threadid;		\/* 线程号 *\/$/;"	m	struct:__anon1	access:public
+__anon1::threads_limit	thread_pool.h	/^	int threads_limit;			\/* 线程池中允许的活动线程数目 *\/$/;"	m	struct:__anon1	access:public
+__anon2::ismute	mplayer_control/mplayer_control.h	/^	int ismute;						\/\/静音标志位$/;"	m	struct:__anon2	access:public
+__anon2::ispause	mplayer_control/mplayer_control.h	/^	int ispause;               	 	\/\/mplayer暂停标志位；0：未暂停，1：已暂停$/;"	m	struct:__anon2	access:public
+__anon2::percent	mplayer_control/mplayer_control.h	/^	int percent;					\/\/播放进度百分比$/;"	m	struct:__anon2	access:public
+__anon2::play_change_flag	mplayer_control/mplayer_control.h	/^	int play_change_flag;			\/\/切换歌曲标志位$/;"	m	struct:__anon2	access:public
+__anon2::play_model	mplayer_control/mplayer_control.h	/^	int play_model;					\/\/播放模式$/;"	m	struct:__anon2	access:public
+__anon2::song_cur	mplayer_control/mplayer_control.h	/^	char song_cur[SONG_SIZE];		\/\/当前播放的歌曲$/;"	m	struct:__anon2	access:public
+__anon2::song_cur_num	mplayer_control/mplayer_control.h	/^	int song_cur_num;				\/\/当前播放歌曲编号$/;"	m	struct:__anon2	access:public
+__anon2::song_length	mplayer_control/mplayer_control.h	/^	int song_length;				\/\/播放时间总长度$/;"	m	struct:__anon2	access:public
+__anon2::temp_volume	mplayer_control/mplayer_control.h	/^	int temp_volume;$/;"	m	struct:__anon2	access:public
+__anon2::time_position	mplayer_control/mplayer_control.h	/^	int time_position;				\/\/播放进度时间$/;"	m	struct:__anon2	access:public
+__anon2::volume	mplayer_control/mplayer_control.h	/^	int volume;                 	\/\/mplayer音量范围（0-100）$/;"	m	struct:__anon2	access:public
+__anon3::list_rwlock	mplayer_control/mplayer_control.h	/^	pthread_rwlock_t list_rwlock;	\/\/列表读写锁$/;"	m	struct:__anon3	access:public
+__anon3::song_list	mplayer_control/mplayer_control.h	/^	char **song_list;				\/\/歌曲列表指针$/;"	m	struct:__anon3	access:public
+__anon3::song_num	mplayer_control/mplayer_control.h	/^	int song_num;               	\/\/歌曲总数$/;"	m	struct:__anon3	access:public
+__anon4::fifo_path	mplayer_control/mplayer_control.h	/^	char fifo_path[PATH_SIZE];				\/\/存放命名管道路径名$/;"	m	struct:__anon4	access:public
+__anon4::lrc_path	mplayer_control/mplayer_control.h	/^	char lrc_path[PATH_SIZE];				\/\/存放歌词路径名$/;"	m	struct:__anon4	access:public
+__anon4::path_rwlock	mplayer_control/mplayer_control.h	/^	pthread_rwlock_t path_rwlock;			\/\/路径读写锁$/;"	m	struct:__anon4	access:public
+__anon4::song_path	mplayer_control/mplayer_control.h	/^	char song_path[PATH_SIZE];				\/\/歌曲路径$/;"	m	struct:__anon4	access:public
+__anon5::pid	mplayer_control/mplayer_control.h	/^	pid_t pid;						\/\/mplayer启动进程号$/;"	m	struct:__anon5	access:public
+__anon5::play_flag	mplayer_control/mplayer_control.h	/^	int play_flag;					\/\/mplayer启动标志位;0:未启动,1:已启动$/;"	m	struct:__anon5	access:public
+__anon5::process_rwlock	mplayer_control/mplayer_control.h	/^	pthread_rwlock_t process_rwlock;$/;"	m	struct:__anon5	access:public
+__anon6::cmd_fifo_fd	mplayer_control/mplayer_control.h	/^	int cmd_fifo_fd;				\/\/向mplayer发送命令的文件描述符$/;"	m	struct:__anon6	access:public
+__anon6::msg_fifo_fd	mplayer_control/mplayer_control.h	/^	int msg_fifo_fd;				\/\/接收mplayer信息的文件描述符$/;"	m	struct:__anon6	access:public
+__anon6::write_cmd_mutex	mplayer_control/mplayer_control.h	/^	pthread_mutex_t write_cmd_mutex;\/\/写命令的命名管道互斥锁$/;"	m	struct:__anon6	access:public
+__anon7::fifo	mplayer_control/mplayer_control.h	/^	FIFO_FD fifo;					\/\/命名管道$/;"	m	struct:__anon7	access:public
+__anon7::list	mplayer_control/mplayer_control.h	/^	SONG_LIST list;					\/\/歌曲列表$/;"	m	struct:__anon7	access:public
+__anon7::path	mplayer_control/mplayer_control.h	/^	PATH path;						\/\/各种路径$/;"	m	struct:__anon7	access:public
+__anon7::status	mplayer_control/mplayer_control.h	/^	SONG_STATUS status;				\/\/歌曲状态$/;"	m	struct:__anon7	access:public
+__mg323_msg_type	send_message/gprs_config.h	/^typedef struct __mg323_msg_type{$/;"	s
+__mg323_msg_type::PDU_type	send_message/gprs_config.h	/^	char PDU_type;	\/\/短消息中心号码类型	1字节$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_CLE	send_message/gprs_config.h	/^	char TP_CLE;	\/\/被叫号码长度$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_CN	send_message/gprs_config.h	/^	char *TP_CN;\/\/$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_CPT	send_message/gprs_config.h	/^	char TP_CPT;	\/\/被叫PDU_type$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_DCS	send_message/gprs_config.h	/^	char TP_DCS;	\/\/数据编码标准$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_HEADER	send_message/gprs_config.h	/^	char TP_HEADER;	\/\/文件头字节--设置短信息发送接收数据$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_MR	send_message/gprs_config.h	/^	char TP_MR;		\/\/信息类型$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_PID	send_message/gprs_config.h	/^	char TP_PID;	\/\/协议表示$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_SC	send_message/gprs_config.h	/^	char *TP_SC;	\/\/短消息中心号码	不确定几个字节  手机号12字节$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_SCA	send_message/gprs_config.h	/^	char TP_SCA;	\/\/短消息中心地址长度，决定着号码类型+号码的长度  1字节$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_UD	send_message/gprs_config.h	/^	char*TP_UD;		\/\/用户数据指针$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_UDL	send_message/gprs_config.h	/^	char TP_UDL;	\/\/用户数据长度$/;"	m	struct:__mg323_msg_type	access:public
+__mg323_msg_type::TP_VP	send_message/gprs_config.h	/^	char TP_VP;		\/\/允许时间$/;"	m	struct:__mg323_msg_type	access:public
+_task	thread_pool.h	/^typedef struct _task{$/;"	s
+_task::arg	thread_pool.h	/^	void *arg;     \/*回调函数的参数*\/$/;"	m	struct:_task	access:public
+_task::next	thread_pool.h	/^	struct _task *next;$/;"	m	struct:_task	typeref:struct:_task::_task	access:public
+_task::process	thread_pool.h	/^	pool_task_f process;\/*回调函数，任务运行时会调用此函数，注意也可声明成其它形式*\/$/;"	m	struct:_task	access:public
+am2311_open	get_humiture/get_humiture.c	/^int am2311_open()$/;"	f
+am2311_open	get_humiture/get_humiture.h	/^extern int am2311_open();$/;"	p	signature:()
+arg	thread_pool.h	/^	void *arg;     \/*回调函数的参数*\/$/;"	m	struct:_task	access:public
+bag	receive_bag.h	/^	char *bag;$/;"	m	struct:bag_and_ip_t	access:public
+bag_and_ip_t	receive_bag.h	/^struct bag_and_ip_t$/;"	s
+bag_and_ip_t::bag	receive_bag.h	/^	char *bag;$/;"	m	struct:bag_and_ip_t	access:public
+bag_and_ip_t::ip	receive_bag.h	/^	char *ip;$/;"	m	struct:bag_and_ip_t	access:public
+beutf8	send_message/gb2312_ucs2.c	/^int beutf8(const char *str)  $/;"	f	signature:(const char *str)
+cc	Makefile	/^cc  = arm-linux-gcc $/;"	m
+cflags	Makefile	/^cflags = -lpthread -Wall$/;"	m
+check_right_ip	deal_IP/deal_IP.c	/^int check_right_ip(const char *ip)$/;"	f	signature:(const char *ip)
+check_right_ip	deal_IP/deal_IP.h	/^extern int check_right_ip(const char *ip);$/;"	p	signature:(const char *ip)
+cmd_fifo_fd	mplayer_control/mplayer_control.h	/^	int cmd_fifo_fd;				\/\/向mplayer发送命令的文件描述符$/;"	m	struct:__anon6	access:public
+control_chess	infrared/infrared.c	/^static void control_chess(int cmd)$/;"	f	file:	signature:(int cmd)
+control_mplayer	infrared/infrared.c	/^static void control_mplayer(int cmd)$/;"	f	file:	signature:(int cmd)
+countGBK	send_message/gb2312_ucs2.c	/^unsigned int countGBK(const char * str)  $/;"	f	signature:(const char * str)
+countUTF8	send_message/gb2312_ucs2.c	/^unsigned int countUTF8(const char * str)  $/;"	f	signature:(const char * str)
+create_cmd_msg_fifo	mplayer_control/mplayer_control.c	/^int create_cmd_msg_fifo(FIFO_FD *fifo, PATH *path)$/;"	f	signature:(FIFO_FD *fifo, PATH *path)
+deal_client_request	receive_bag.c	/^void *deal_client_request(void *arg)$/;"	f	signature:(void *arg)
+deal_client_request	receive_bag.h	/^void *deal_client_request(void *arg);$/;"	p	signature:(void *arg)
+deal_data_and_get_data	receive_bag.c	/^int deal_data_and_get_data(int cmd_word, char *data, char *deal_data)$/;"	f	signature:(int cmd_word, char *data, char *deal_data)
+deal_data_and_get_data	receive_bag.h	/^int deal_data_and_get_data(int cmd_word, char *data, char *deal_data);$/;"	p	signature:(int cmd_word, char *data, char *deal_data)
+deal_ip	deal_IP/deal_IP.c	/^int deal_ip(char *data, char *return_data)$/;"	f	signature:(char *data, char *return_data)
+deal_ip	deal_IP/deal_IP.h	/^extern int deal_ip(char *data, char *return_data);$/;"	p	signature:(char *data, char *return_data)
+dequeue_task	thread_pool.c	/^static pool_task *dequeue_task(pool_t *pool)$/;"	f	file:	signature:(pool_t *pool)
+destroy_flag	thread_pool.h	/^	int destroy_flag;			\/* 是否销毁线程池 , 0销毁，1不销毁*\/$/;"	m	struct:__anon1	access:public
+enqueue_task	thread_pool.c	/^static void enqueue_task(pool_t *pool, pool_task_f process, void *arg)$/;"	f	file:	signature:(pool_t *pool, pool_task_f process, void *arg)
+fifo	mplayer_control/mplayer_control.h	/^	FIFO_FD fifo;					\/\/命名管道$/;"	m	struct:__anon7	access:public
+fifo_fd_close	mplayer_control/mplayer_control.c	/^void fifo_fd_close(FIFO_FD *fifo)$/;"	f	signature:(FIFO_FD *fifo)
+fifo_fd_init	mplayer_control/mplayer_control.c	/^void fifo_fd_init(PATH *path, FIFO_FD *fifo)$/;"	f	signature:(PATH *path, FIFO_FD *fifo)
+fifo_path	mplayer_control/mplayer_control.h	/^	char fifo_path[PATH_SIZE];				\/\/存放命名管道路径名$/;"	m	struct:__anon4	access:public
+gb2312_str_to_ucs2_str	send_message/gb2312_ucs2.c	/^int gb2312_str_to_ucs2_str(char *psrc,char *pdst,int dstlength)$/;"	f	signature:(char *psrc,char *pdst,int dstlength)
+gb2312_to_ucs2	send_message/gb2312_ucs2.c	/^unsigned short gb2312_to_ucs2(unsigned short gb2312)$/;"	f	signature:(unsigned short gb2312)
+gb2312_to_ucs2	send_message/gb2312_ucs2.h	/^unsigned short gb2312_to_ucs2(unsigned short gb2312);$/;"	p	signature:(unsigned short gb2312)
+gb2312_to_ucs2	send_msg_encoding/gb2312_ucs2.c	/^unsigned short gb2312_to_ucs2(unsigned short gb2312)$/;"	f	signature:(unsigned short gb2312)
+gb2312_to_ucs2	send_msg_encoding/gb2312_ucs2.h	/^unsigned short gb2312_to_ucs2(unsigned short gb2312);$/;"	p	signature:(unsigned short gb2312)
+gb2312_to_utf8	send_message/gb2312_ucs2.c	/^unsigned char *gb2312_to_utf8(const unsigned char *gb2312, unsigned char *utf)$/;"	f	signature:(const unsigned char *gb2312, unsigned char *utf)
+gb2312_to_utf8	send_message/gb2312_ucs2.h	/^unsigned char *gb2312_to_utf8(const unsigned char *gb2312, unsigned char *utf);$/;"	p	signature:(const unsigned char *gb2312, unsigned char *utf)
+gb2312_to_utf8	send_msg_encoding/gb2312_ucs2.c	/^unsigned char *gb2312_to_utf8(const char *gb2312, char *utf)$/;"	f	signature:(const char *gb2312, char *utf)
+gb2312_to_utf8	send_msg_encoding/gb2312_ucs2.h	/^	char *gb2312_to_utf8(const char *gb2312, char *utf);$/;"	p	signature:(const char *gb2312, char *utf)
+get_deal_ip_ipaddr	deal_IP/deal_IP.c	/^int get_deal_ip_ipaddr(char *data, char *ip)$/;"	f	signature:(char *data, char *ip)
+get_deal_ip_mode	deal_IP/deal_IP.c	/^int get_deal_ip_mode(char *data, int *mode)$/;"	f	signature:(char *data, int *mode)
+get_gprs_control_mode	send_message/send_message.c	/^int get_gprs_control_mode(char *data, int *mode)$/;"	f	signature:(char *data, int *mode)
+get_gprs_control_msg	send_message/send_message.c	/^int get_gprs_control_msg(char *data, char *msg)$/;"	f	signature:(char *data, char *msg)
+get_gprs_control_tel	send_message/send_message.c	/^int get_gprs_control_tel(char *data, char *tel)$/;"	f	signature:(char *data, char *tel)
+get_humiture	get_humiture/get_humiture.c	/^int get_humiture(char *data, char *return_data)$/;"	f	signature:(char *data, char *return_data)
+get_humiture	get_humiture/get_humiture.h	/^extern int get_humiture(char *bag, char *recv_bag);$/;"	p	signature:(char *bag, char *recv_bag)
+get_humiture_mode	get_humiture/get_humiture.c	/^int get_humiture_mode(char *data, int *mode)$/;"	f	signature:(char *data, int *mode)
+get_ip	deal_IP/deal_IP.c	/^int get_ip(char *ip)$/;"	f	signature:(char *ip)
+get_ip	deal_IP/deal_IP.h	/^extern int get_ip(char *ip);$/;"	p	signature:(char *ip)
+get_led_cmd	led_control/led_control.c	/^int get_led_cmd(char *data, int *mode)$/;"	f	signature:(char *data, int *mode)
+get_led_control	led_control/led_control.c	/^int get_led_control()$/;"	f
+get_led_control	led_control/led_control.h	/^extern int get_led_control();$/;"	p	signature:()
+get_led_other_data	led_control/led_control.c	/^int get_led_other_data(char *data, int *other)$/;"	f	signature:(char *data, int *other)
+get_led_status	led_control/led_control.c	/^int get_led_status(int fd)$/;"	f	signature:(int fd)
+get_led_status	led_control/led_control.h	/^extern int get_led_status(int fd);$/;"	p	signature:(int fd)
+get_login_mode	login/login.c	/^int get_login_mode(const char *data, int *mode)$/;"	f	signature:(const char *data, int *mode)
+get_login_user_and_pwd	login/login.c	/^int get_login_user_and_pwd(const char *data, char *user, char *pwd)$/;"	f	signature:(const char *data, char *user, char *pwd)
+get_mplayer_control_mode	mplayer_control/mplayer_control.c	/^int get_mplayer_control_mode(char *data, int *mode)$/;"	f	signature:(char *data, int *mode)
+get_mplayer_control_song_name	mplayer_control/mplayer_control.c	/^int get_mplayer_control_song_name(char *data, char *msg)$/;"	f	signature:(char *data, char *msg)
+get_mplayer_control_volume	mplayer_control/mplayer_control.c	/^int get_mplayer_control_volume(char *data, int *volume)$/;"	f	signature:(char *data, int *volume)
+get_song_list	mplayer_control/deal_song_list.h	/^extern char **get_song_list(const char *song_path, int *song_num);$/;"	p	signature:(const char *song_path, int *song_num)
+get_str_addr	mplayer_control/mplayer_control.c	/^static char *get_str_addr(char *str, char c, int p_size)$/;"	f	file:	signature:(char *str, char c, int p_size)
+get_str_addr	send_message/send_message.c	/^static char *get_str_addr(char *str, char c, int p_size)$/;"	f	file:	signature:(char *str, char c, int p_size)
+get_sunhome_bag_all	agreement.c	/^int get_sunhome_bag_all(const char *bag, int *client_mode, $/;"	f	signature:(const char *bag, int *client_mode, unsigned short *port, int *cmd_word, char *other_data)
+get_sunhome_bag_all	agreement.h	/^extern int get_sunhome_bag_all(const char *bag, int *client_mode,$/;"	p	signature:(const char *bag, int *client_mode, unsigned short *port, int *cmd_word, char *other_data)
+get_sunhome_bag_client_mode	agreement.c	/^int get_sunhome_bag_client_mode(const char *bag, int *client_mode)$/;"	f	signature:(const char *bag, int *client_mode)
+get_sunhome_bag_client_mode	agreement.h	/^extern int get_sunhome_bag_client_mode(const char *bag, int *client_mode);$/;"	p	signature:(const char *bag, int *client_mode)
+get_sunhome_bag_cmd_word	agreement.c	/^int get_sunhome_bag_cmd_word(const char *bag, int *cmd_word)$/;"	f	signature:(const char *bag, int *cmd_word)
+get_sunhome_bag_cmd_word	agreement.h	/^extern int get_sunhome_bag_cmd_word(const char *bag, int *cmd_word);$/;"	p	signature:(const char *bag, int *cmd_word)
+get_sunhome_bag_head	agreement.c	/^char *get_sunhome_bag_head(const char *bag, char *head)$/;"	f	signature:(const char *bag, char *head)
+get_sunhome_bag_head	agreement.h	/^extern char *get_sunhome_bag_head(const char *bag, char *head);$/;"	p	signature:(const char *bag, char *head)
+get_sunhome_bag_other_data	agreement.c	/^char *get_sunhome_bag_other_data(const char *bag, char *other_data)$/;"	f	signature:(const char *bag, char *other_data)
+get_sunhome_bag_other_data	agreement.h	/^extern char *get_sunhome_bag_other_data(const char *bag, char *other_data);$/;"	p	signature:(const char *bag, char *other_data)
+get_sunhome_bag_port	agreement.c	/^unsigned short get_sunhome_bag_port(const char *bag, unsigned short *port)$/;"	f	signature:(const char *bag, unsigned short *port)
+get_sunhome_bag_port	agreement.h	/^extern unsigned short get_sunhome_bag_port(const char *bag, unsigned short *port);$/;"	p	signature:(const char *bag, unsigned short *port)
+get_temp_and_humi	get_humiture/get_humiture.c	/^int get_temp_and_humi(float *temp, float *humi)$/;"	f	signature:(float *temp, float *humi)
+get_temp_and_humi	get_humiture/get_humiture.h	/^extern int get_temp_and_humi(float *temp, float *humi);$/;"	p	signature:(float *temp, float *humi)
+get_utf8_nbytes	send_message/gb2312_ucs2.c	/^int get_utf8_nbytes(unsigned char first_char)$/;"	f	signature:(unsigned char first_char)
+get_utf8_nbytes	send_msg_encoding/gb2312_ucs2.c	/^int get_utf8_nbytes(unsigned char first_char)$/;"	f	signature:(unsigned char first_char)
+get_utf8_nbytes	send_msg_encoding/gb2312_ucs2.h	/^int get_utf8_nbytes(unsigned char first_char);$/;"	p	signature:(unsigned char first_char)
+gpio_init	led_control/led_control.c	/^void gpio_init(int led_fd)$/;"	f	signature:(int led_fd)
+gpio_init	led_control/led_control.h	/^extern void gpio_init(int led_fd);$/;"	p	signature:(int led_fd)
+gpio_open	led_control/led_control.c	/^int gpio_open()$/;"	f
+gpio_open	led_control/led_control.h	/^extern int gpio_open();$/;"	p	signature:()
+gpio_red_init	main.c	/^void gpio_red_init(void *arg)$/;"	f	signature:(void *arg)
+gprs_call	send_message/send_message.c	/^int gprs_call(int uart_fd, char *tel)$/;"	f	signature:(int uart_fd, char *tel)
+gprs_control	send_message/send_message.c	/^int gprs_control(char *data, char *return_data)$/;"	f	signature:(char *data, char *return_data)
+gprs_control	send_message/send_message.h	/^extern int gprs_control(char *data, char *return_data);$/;"	p	signature:(char *data, char *return_data)
+gprs_hang_up	send_message/send_message.c	/^int gprs_hang_up()$/;"	f
+gprs_hang_up	send_message/send_message.h	/^extern int gprs_hang_up();$/;"	p	signature:()
+gprs_mg323_byte_to_string	send_message/gprs_config.c	/^int gprs_mg323_byte_to_string(const unsigned char* pSrc, char* pDst, int nSrcLength)$/;"	f	signature:(const unsigned char* pSrc, char* pDst, int nSrcLength)
+gprs_mg323_covert_phonenuber_to_pdu	send_message/gprs_config.c	/^int gprs_mg323_covert_phonenuber_to_pdu(const char *psrc,char *pdst)$/;"	f	signature:(const char *psrc,char *pdst)
+gprs_mg323_decode_7bit	send_message/gprs_config.c	/^int gprs_mg323_decode_7bit(const char* psrc, unsigned char* pdst, int nsrclength)$/;"	f	signature:(const char* psrc, unsigned char* pdst, int nsrclength)
+gprs_mg323_decode_8bit	send_message/gprs_config.c	/^int gprs_mg323_decode_8bit(const unsigned char* psrc, char* pdst, int nsrclength)$/;"	f	signature:(const unsigned char* psrc, char* pdst, int nsrclength)
+gprs_mg323_decode_ucs2	send_message/gprs_config.c	/^int gprs_mg323_decode_ucs2(  char* pSrc,  char* pDst, int nSrcLength)$/;"	f	signature:( char* pSrc, char* pDst, int nSrcLength)
+gprs_mg323_encode_7bit	send_message/gprs_config.c	/^int gprs_mg323_encode_7bit(const char* psrc, unsigned char* pdst, int nsrclength)$/;"	f	signature:(const char* psrc, unsigned char* pdst, int nsrclength)
+gprs_mg323_encode_8bit	send_message/gprs_config.c	/^int gprs_mg323_encode_8bit(const unsigned char* psrc, char* pdst, int nsrclength)$/;"	f	signature:(const unsigned char* psrc, char* pdst, int nsrclength)
+gprs_mg323_encode_ucs2	send_message/gprs_config.c	/^int gprs_mg323_encode_ucs2(  char* psrc, char * pdst, int nsrclength)$/;"	f	signature:( char* psrc, char * pdst, int nsrclength)
+gprs_mg323_encode_ucs2	send_message/gprs_config.h	/^extern int gprs_mg323_encode_ucs2(  char* psrc, char * pdst, int nsrclength);$/;"	p	signature:( char* psrc, char * pdst, int nsrclength)
+gprs_mg323_invert_number	send_message/gprs_config.c	/^int gprs_mg323_invert_number(const char* pSrc, char* pDst, int nSrcLength)$/;"	f	signature:(const char* pSrc, char* pDst, int nSrcLength)
+gprs_mg323_sent_at	send_message/gprs_config.c	/^void gprs_mg323_sent_at(int uart_fd)$/;"	f	signature:(int uart_fd)
+gprs_mg323_string_to_byte	send_message/gprs_config.c	/^int gprs_mg323_string_to_byte(const char* pSrc, unsigned char* pDst, int nSrcLength)$/;"	f	signature:(const char* pSrc, unsigned char* pDst, int nSrcLength)
+gprs_send_msg	send_message/send_message.c	/^int gprs_send_msg(int uart_fd, char *tel, char *msg, char *center_num)$/;"	f	signature:(int uart_fd, char *tel, char *msg, char *center_num)
+group_sunhome_bag	agreement.c	/^char *group_sunhome_bag(char *bag, int client_mode,$/;"	f	signature:(char *bag, int client_mode, unsigned short port, int cmd_word, char *data)
+group_sunhome_bag	agreement.h	/^extern char *group_sunhome_bag(char *bag, int client_mode,$/;"	p	signature:(char *bag, int client_mode, unsigned short port, int cmd_word, char *data)
+group_sunhome_local_client_to_server_bag	agreement.c	/^char *group_sunhome_local_client_to_server_bag(char *bag, $/;"	f	signature:(char *bag, int cmd_word, char *data)
+group_sunhome_local_client_to_server_bag	agreement.h	/^extern char *group_sunhome_local_client_to_server_bag(char *bag, $/;"	p	signature:(char *bag, int cmd_word, char *data)
+gsm_mg323_encode_pdu	send_message/gprs_config.c	/^int gsm_mg323_encode_pdu(SM_PARAM *pdu, char* pDst)$/;"	f	signature:(SM_PARAM *pdu, char* pDst)
+gsm_mg323_encode_pdu	send_message/gprs_config.h	/^extern int gsm_mg323_encode_pdu(SM_PARAM *pdu, char* pDst);$/;"	p	signature:(SM_PARAM *pdu, char* pDst)
+gsm_mg323_pdu_init	send_message/gprs_config.c	/^int gsm_mg323_pdu_init(SM_PARAM *pdu,  char * psrc_num,  char * pdst_num,  char *content)$/;"	f	signature:(SM_PARAM *pdu, char * psrc_num, char * pdst_num, char *content)
+gsm_mg323_pdu_init	send_message/gprs_config.h	/^extern int gsm_mg323_pdu_init(SM_PARAM *pdu,  char * psrc_num,  char * pdst_num,  char *content);$/;"	p	signature:(SM_PARAM *pdu, char * psrc_num, char * pdst_num, char *content)
+infrared_init	main.c	/^void infrared_init(void *arg)$/;"	f	signature:(void *arg)
+ip	receive_bag.h	/^	char *ip;$/;"	m	struct:bag_and_ip_t	access:public
+ismute	mplayer_control/mplayer_control.h	/^	int ismute;						\/\/静音标志位$/;"	m	struct:__anon2	access:public
+ispause	mplayer_control/mplayer_control.h	/^	int ispause;               	 	\/\/mplayer暂停标志位；0：未暂停，1：已暂停$/;"	m	struct:__anon2	access:public
+led_control	led_control/led_control.c	/^int led_control(char *data, char *return_data)$/;"	f	signature:(char *data, char *return_data)
+led_control	led_control/led_control.h	/^extern int led_control(char *bag, char *recv_bag);$/;"	p	signature:(char *bag, char *recv_bag)
+list	mplayer_control/mplayer_control.h	/^	SONG_LIST list;					\/\/歌曲列表$/;"	m	struct:__anon7	access:public
+list_rwlock	mplayer_control/mplayer_control.h	/^	pthread_rwlock_t list_rwlock;	\/\/列表读写锁$/;"	m	struct:__anon3	access:public
+lock_init	mplayer_control/mplayer_control.c	/^void lock_init(PLAYER *player)$/;"	f	signature:(PLAYER *player)
+login_deal	login/login.c	/^int login_deal(const char *data, char *return_data)$/;"	f	signature:(const char *data, char *return_data)
+login_deal	login/login.h	/^extern int login_deal(const char *data, char *return_data);$/;"	p	signature:(const char *data, char *return_data)
+lrc_path	mplayer_control/mplayer_control.h	/^	char lrc_path[PATH_SIZE];				\/\/存放歌词路径名$/;"	m	struct:__anon4	access:public
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mplayer_control	mplayer_control/mplayer_control.c	/^int mplayer_control(char *data, char *return_data)$/;"	f	signature:(char *data, char *return_data)
+mplayer_control	mplayer_control/mplayer_control.h	/^extern int mplayer_control(char *data, char *return_data);$/;"	p	signature:(char *data, char *return_data)
+msg_fifo_fd	mplayer_control/mplayer_control.h	/^	int msg_fifo_fd;				\/\/接收mplayer信息的文件描述符$/;"	m	struct:__anon6	access:public
+next	thread_pool.h	/^	struct _task *next;$/;"	m	struct:_task	typeref:struct:_task::_task	access:public
+obj	Makefile	/^obj = $(src:%.c=%.o)$/;"	m
+option_old	send_message/uart_init.c	/^static struct termios option_old;$/;"	v	typeref:struct:termios	file:
+path	mplayer_control/mplayer_control.h	/^	PATH path;						\/\/各种路径$/;"	m	struct:__anon7	access:public
+path_init	mplayer_control/mplayer_control.c	/^void path_init(PATH *path)$/;"	f	signature:(PATH *path)
+path_rwlock	mplayer_control/mplayer_control.h	/^	pthread_rwlock_t path_rwlock;			\/\/路径读写锁$/;"	m	struct:__anon4	access:public
+pathname_space_dispose	mplayer_control/mplayer_control.c	/^char *pathname_space_dispose(char *dest, int length, char *src)$/;"	f	signature:(char *dest, int length, char *src)
+percent	mplayer_control/mplayer_control.h	/^	int percent;					\/\/播放进度百分比$/;"	m	struct:__anon2	access:public
+pid	mplayer_control/mplayer_control.h	/^	pid_t pid;						\/\/mplayer启动进程号$/;"	m	struct:__anon5	access:public
+play_change_flag	mplayer_control/mplayer_control.h	/^	int play_change_flag;			\/\/切换歌曲标志位$/;"	m	struct:__anon2	access:public
+play_flag	mplayer_control/mplayer_control.h	/^	int play_flag;					\/\/mplayer启动标志位;0:未启动,1:已启动$/;"	m	struct:__anon5	access:public
+play_model	mplayer_control/mplayer_control.h	/^	int play_model;					\/\/播放模式$/;"	m	struct:__anon2	access:public
+player_cmd_num	mplayer_control/mplayer_control.h	/^enum player_cmd_num$/;"	g
+player_start	mplayer_control/mplayer_control.c	/^int player_start(PLAYER *player)$/;"	f	signature:(PLAYER *player)
+pool_add_task	thread_pool.c	/^int pool_add_task(pool_t *pool, pool_task_f process, void *arg)$/;"	f	signature:(pool_t *pool, pool_task_f process, void *arg)
+pool_add_task	thread_pool.h	/^int pool_add_task(pool_t *pool, pool_task_f process, void *arg);$/;"	p	signature:(pool_t *pool, pool_task_f process, void *arg)
+pool_init	thread_pool.c	/^void pool_init(pool_t *pool, int threads_limit)$/;"	f	signature:(pool_t *pool, int threads_limit)
+pool_init	thread_pool.h	/^void pool_init(pool_t *pool, int threads_limit);$/;"	p	signature:(pool_t *pool, int threads_limit)
+pool_t	thread_pool.h	/^}pool_t;$/;"	t	typeref:struct:__anon1
+pool_task	thread_pool.h	/^}pool_task;$/;"	t	typeref:struct:_task
+pool_task_f	thread_pool.h	/^typedef void *(*pool_task_f)(void *arg);$/;"	t
+pool_thread_server	thread_pool.c	/^static void *pool_thread_server(void *arg)$/;"	f	file:	signature:(void *arg)
+pool_thread_server	thread_pool.c	/^static void *pool_thread_server(void *arg);$/;"	p	file:	signature:(void *arg)
+pool_uninit	thread_pool.c	/^int pool_uninit(pool_t *pool)$/;"	f	signature:(pool_t *pool)
+pool_uninit	thread_pool.h	/^int pool_uninit(pool_t *pool);$/;"	p	signature:(pool_t *pool)
+process	thread_pool.h	/^	pool_task_f process;\/*回调函数，任务运行时会调用此函数，注意也可声明成其它形式*\/$/;"	m	struct:_task	access:public
+process_rwlock	mplayer_control/mplayer_control.h	/^	pthread_rwlock_t process_rwlock;$/;"	m	struct:__anon5	access:public
+pthread_gpio_red	gpio_red/gpio_red.c	/^void *pthread_gpio_red(void *arg)$/;"	f	signature:(void *arg)
+pthread_gpio_red	gpio_red/gpio_red.h	/^extern void *pthread_gpio_red(void *arg);$/;"	p	signature:(void *arg)
+pthread_infrared_recv	infrared/infrared.c	/^void *pthread_infrared_recv(void *arg)$/;"	f	signature:(void *arg)
+pthread_infrared_recv	infrared/infrared.h	/^void *pthread_infrared_recv(void *arg);$/;"	p	signature:(void *arg)
+queue_head	thread_pool.h	/^	pool_task *queue_head;	\/* 链表结构，线程池中所有等待任务 *\/$/;"	m	struct:__anon1	access:public
+queue_lock	thread_pool.h	/^	pthread_mutex_t queue_lock;	\/* 锁 *\/$/;"	m	struct:__anon1	access:public
+queue_ready	thread_pool.h	/^	pthread_cond_t queue_ready;	\/* 条件变量 *\/$/;"	m	struct:__anon1	access:public
+radix_table	send_message/gb2312_ucs2.c	/^static const char radix_table[] = "0123456789ABCDEF";$/;"	v	file:
+radix_table	send_msg_encoding/gb2312_ucs2.c	/^static const char radix_table[] = "0123456789ABCDEF";$/;"	v	file:
+read_am2311_data	get_humiture/get_humiture.c	/^int read_am2311_data(const int fd, float *temp, float *humi)$/;"	f	signature:(const int fd, float *temp, float *humi)
+read_am2311_data	get_humiture/get_humiture.h	/^extern int read_am2311_data(const int fd, float *temp, float *humi);$/;"	p	signature:(const int fd, float *temp, float *humi)
+red_deal	gpio_red/gpio_red.c	/^static void red_deal(int red_fd, int bee_fd)$/;"	f	file:	signature:(int red_fd, int bee_fd)
+release_song_list	mplayer_control/deal_song_list.h	/^extern char **release_song_list(char **song_list, int song_num);$/;"	p	signature:(char **song_list, int song_num)
+send_cmd_set_led_status	infrared/infrared.c	/^int send_cmd_set_led_status(int num)$/;"	f	signature:(int num)
+send_cmd_start_mplayer	infrared/infrared.c	/^void send_cmd_start_mplayer(int cmd_word)$/;"	f	signature:(int cmd_word)
+send_cmd_to_player	mplayer_control/mplayer_control.c	/^int send_cmd_to_player(PLAYER *player, int cmd_num, void *data)$/;"	f	signature:(PLAYER *player, int cmd_num, void *data)
+serial_dev	send_message/send_message.c	/^static char *serial_dev[]={"\/dev\/s3c2410_serial0",$/;"	v	file:
+set_auto_ip	deal_IP/deal_IP.c	/^int set_auto_ip(char *ip)$/;"	f	signature:(char *ip)
+set_auto_ip	deal_IP/deal_IP.h	/^extern int set_auto_ip(char *ip);$/;"	p	signature:(char *ip)
+set_hand_ip	deal_IP/deal_IP.c	/^int set_hand_ip(const char *ipaddr)$/;"	f	signature:(const char *ipaddr)
+set_hand_ip	deal_IP/deal_IP.h	/^extern int set_hand_ip(const char *ip);$/;"	p	signature:(const char *ip)
+set_led	led_control/led_control.c	/^int set_led(int num)$/;"	f	signature:(int num)
+set_led	led_control/led_control.h	/^extern int set_led(int num);$/;"	p	signature:(int num)
+set_led_control	led_control/led_control.c	/^int set_led_control(int num)$/;"	f	signature:(int num)
+set_led_control	led_control/led_control.h	/^extern int set_led_control(int status);$/;"	p	signature:(int status)
+song_cur	mplayer_control/mplayer_control.h	/^	char song_cur[SONG_SIZE];		\/\/当前播放的歌曲$/;"	m	struct:__anon2	access:public
+song_cur_num	mplayer_control/mplayer_control.h	/^	int song_cur_num;				\/\/当前播放歌曲编号$/;"	m	struct:__anon2	access:public
+song_length	mplayer_control/mplayer_control.h	/^	int song_length;				\/\/播放时间总长度$/;"	m	struct:__anon2	access:public
+song_list	mplayer_control/mplayer_control.h	/^	char **song_list;				\/\/歌曲列表指针$/;"	m	struct:__anon3	access:public
+song_list_init	mplayer_control/mplayer_control.c	/^char **song_list_init(PLAYER *player)$/;"	f	signature:(PLAYER *player)
+song_num	mplayer_control/mplayer_control.h	/^	int song_num;               	\/\/歌曲总数$/;"	m	struct:__anon3	access:public
+song_path	mplayer_control/mplayer_control.h	/^	char song_path[PATH_SIZE];				\/\/歌曲路径$/;"	m	struct:__anon4	access:public
+song_status_init	mplayer_control/mplayer_control.c	/^void song_status_init(SONG_STATUS *status, SONG_LIST *list)$/;"	f	signature:(SONG_STATUS *status, SONG_LIST *list)
+status	mplayer_control/mplayer_control.h	/^	SONG_STATUS status;				\/\/歌曲状态$/;"	m	struct:__anon7	access:public
+str_to_unicode	send_message/gb2312_ucs2.c	/^int str_to_unicode(char *psrc, char *pdst, int dstlength)$/;"	f	signature:(char *psrc, char *pdst, int dstlength)
+str_to_unicode	send_message/gb2312_ucs2.h	/^int str_to_unicode(char *psrc, char *pdst, int dstlength);$/;"	p	signature:(char *psrc, char *pdst, int dstlength)
+sunhome_bind_socket_fd	agreement.c	/^int sunhome_bind_socket_fd(int sockfd, unsigned short port)$/;"	f	signature:(int sockfd, unsigned short port)
+sunhome_bind_socket_fd	agreement.h	/^extern int sunhome_bind_socket_fd(int sockfd, unsigned short port);$/;"	p	signature:(int sockfd, unsigned short port)
+sunhome_check_bag_is_right	agreement.c	/^int sunhome_check_bag_is_right(const char *bag)$/;"	f	signature:(const char *bag)
+sunhome_check_bag_is_right	agreement.h	/^extern int sunhome_check_bag_is_right(const char *bag);$/;"	p	signature:(const char *bag)
+sunhome_float_to_str	agreement.c	/^char *sunhome_float_to_str(float num, char *str)$/;"	f	signature:(float num, char *str)
+sunhome_float_to_str	agreement.h	/^extern char *sunhome_float_to_str(float num, char *str);$/;"	p	signature:(float num, char *str)
+sunhome_get_socket_fd	agreement.c	/^int sunhome_get_socket_fd(void)$/;"	f	signature:(void)
+sunhome_get_socket_fd	agreement.h	/^extern int sunhome_get_socket_fd(void);$/;"	p	signature:(void)
+sunhome_int_to_str	agreement.c	/^char *sunhome_int_to_str(int num, char *str)$/;"	f	signature:(int num, char *str)
+sunhome_int_to_str	agreement.h	/^extern char *sunhome_int_to_str(int num, char *str);$/;"	p	signature:(int num, char *str)
+sunhome_recv_bag_from_client	agreement.c	/^int sunhome_recv_bag_from_client(char *recv_bag, unsigned short port, long msec)$/;"	f	signature:(char *recv_bag, unsigned short port, long msec)
+sunhome_recv_bag_from_client	agreement.h	/^extern int sunhome_recv_bag_from_client(char *recv_bag, unsigned short port, long msec);$/;"	p	signature:(char *recv_bag, unsigned short port, long msec)
+sunhome_recv_data_with_sockfd	agreement.c	/^int sunhome_recv_data_with_sockfd(int sockfd, char *recv_data, char *ip)$/;"	f	signature:(int sockfd, char *recv_data, char *ip)
+sunhome_recv_data_with_sockfd	agreement.h	/^extern int sunhome_recv_data_with_sockfd(int sockfd, char *recv_data, char *ip);$/;"	p	signature:(int sockfd, char *recv_data, char *ip)
+sunhome_send_bag_to_client	agreement.c	/^int sunhome_send_bag_to_client(const char *send_bag, char *client_ip, unsigned short port)$/;"	f	signature:(const char *send_bag, char *client_ip, unsigned short port)
+sunhome_send_bag_to_client	agreement.h	/^extern int sunhome_send_bag_to_client(const char *send_bag, char *ip, unsigned short port);$/;"	p	signature:(const char *send_bag, char *ip, unsigned short port)
+system_thread_pool_init	main.c	/^void system_thread_pool_init(pool_t *pool)$/;"	f	signature:(pool_t *pool)
+target	Makefile	/^target = ..\/execute\/home_back$/;"	m
+task_in_queue	thread_pool.h	/^	int task_in_queue;			\/* 当前等待队列的任务数目 *\/$/;"	m	struct:__anon1	access:public
+temp_volume	mplayer_control/mplayer_control.h	/^	int temp_volume;$/;"	m	struct:__anon2	access:public
+threadid	thread_pool.h	/^	pthread_t *threadid;		\/* 线程号 *\/$/;"	m	struct:__anon1	access:public
+threads_limit	thread_pool.h	/^	int threads_limit;			\/* 线程池中允许的活动线程数目 *\/$/;"	m	struct:__anon1	access:public
+time_position	mplayer_control/mplayer_control.h	/^	int time_position;				\/\/播放进度时间$/;"	m	struct:__anon2	access:public
+uart_default_attr	send_message/uart_init.c	/^static struct termios *uart_default_attr(void)$/;"	f	file:	signature:(void)
+uart_init	send_message/uart_init.c	/^int uart_init(char *devname)$/;"	f	signature:(char *devname)
+uart_init	send_message/uart_init.h	/^int uart_init(char *devname);$/;"	p	signature:(char *devname)
+uart_open	send_message/uart_init.c	/^static int uart_open(char *dev_name)$/;"	f	file:	signature:(char *dev_name)
+uart_print_attr	send_message/uart_init.c	/^void uart_print_attr(struct termios *options)$/;"	f	signature:(struct termios *options)
+uart_print_attr	send_message/uart_init.h	/^void uart_print_attr(struct termios *options);$/;"	p	signature:(struct termios *options)
+uart_readline	send_message/uart_init.c	/^int uart_readline(int uart_fd, char *buffer, int len, int timeout_ms)$/;"	f	signature:(int uart_fd, char *buffer, int len, int timeout_ms)
+uart_readline	send_message/uart_init.h	/^int uart_readline(int uart_fd, char *buffer, int len, int timeout_ms);$/;"	p	signature:(int uart_fd, char *buffer, int len, int timeout_ms)
+uart_send	send_message/uart_init.c	/^int uart_send(int uart_fd, const void * buffer, int buffer_size)$/;"	f	signature:(int uart_fd, const void * buffer, int buffer_size)
+uart_send	send_message/uart_init.h	/^int uart_send(int uart_fd, const void * buffer, int buffer_size);$/;"	p	signature:(int uart_fd, const void * buffer, int buffer_size)
+uart_send_str	send_message/uart_init.c	/^void uart_send_str(int uart_fd, char *str)$/;"	f	signature:(int uart_fd, char *str)
+uart_send_str	send_message/uart_init.h	/^void uart_send_str(int uart_fd, char *str);$/;"	p	signature:(int uart_fd, char *str)
+uart_set_attr	send_message/uart_init.c	/^struct termios * uart_set_attr(int fd,$/;"	f	signature:(int fd, int speed, int data_bits, int stop_bits, int check, struct termios *options)
+uart_set_attr	send_message/uart_init.h	/^struct termios *uart_set_attr(int fd,$/;"	p	signature:(int fd, int speed, int data_bits, int stop_bits, int check, struct termios *options)
+uart_uninit	send_message/uart_init.c	/^void uart_uninit(int uart_fd)$/;"	f	signature:(int uart_fd)
+uart_uninit	send_message/uart_init.h	/^void uart_uninit(int uart_fd);$/;"	p	signature:(int uart_fd)
+uchar	send_message/gb2312_ucs2.c	/^typedef unsigned char uchar;$/;"	t	file:
+uchar	send_msg_encoding/gb2312_ucs2.c	/^typedef unsigned char uchar;$/;"	t	file:
+ucs2_gb2312_table	send_message/gb2312_ucs2.c	/^static const unsigned short ucs2_gb2312_table[][2];$/;"	v	file:
+ucs2_gb2312_table	send_message/gb2312_ucs2.c	/^static const unsigned short ucs2_gb2312_table[][2]={$/;"	v	file:
+ucs2_gb2312_table	send_msg_encoding/gb2312_ucs2.c	/^static const unsigned short ucs2_gb2312_table[][2];$/;"	v	file:
+ucs2_gb2312_table	send_msg_encoding/gb2312_ucs2.c	/^static const unsigned short ucs2_gb2312_table[][2]={$/;"	v	file:
+ucs2_to_gb2312	send_message/gb2312_ucs2.c	/^unsigned short ucs2_to_gb2312(unsigned short ucs2)$/;"	f	signature:(unsigned short ucs2)
+ucs2_to_gb2312	send_message/gb2312_ucs2.h	/^unsigned short ucs2_to_gb2312(unsigned short ucs2);$/;"	p	signature:(unsigned short ucs2)
+ucs2_to_gb2312	send_msg_encoding/gb2312_ucs2.c	/^unsigned short ucs2_to_gb2312(unsigned short ucs2)$/;"	f	signature:(unsigned short ucs2)
+ucs2_to_gb2312	send_msg_encoding/gb2312_ucs2.h	/^unsigned short ucs2_to_gb2312(unsigned short ucs2);$/;"	p	signature:(unsigned short ucs2)
+ucs2_to_utf8	send_message/gb2312_ucs2.c	/^unsigned char *ucs2_to_utf8(unsigned char *ucs2, unsigned char *utf8,int length_ucs2)$/;"	f	signature:(unsigned char *ucs2, unsigned char *utf8,int length_ucs2)
+ucs2_to_utf8	send_message/gb2312_ucs2.h	/^unsigned char *ucs2_to_utf8(unsigned char *ucs2, unsigned char *utf8,int length_ucs2);$/;"	p	signature:(unsigned char *ucs2, unsigned char *utf8,int length_ucs2)
+utf8_str_to_ucs2_str	send_message/gb2312_ucs2.c	/^int utf8_str_to_ucs2_str(char *psrc,char *pdst,int dstlength)$/;"	f	signature:(char *psrc,char *pdst,int dstlength)
+utf8_to_gb2312	send_message/gb2312_ucs2.c	/^unsigned char *utf8_to_gb2312(const unsigned char *utf, unsigned char *gb2312)$/;"	f	signature:(const unsigned char *utf, unsigned char *gb2312)
+utf8_to_gb2312	send_message/gb2312_ucs2.h	/^unsigned char *utf8_to_gb2312(const unsigned char *utf, unsigned char *gb2312);$/;"	p	signature:(const unsigned char *utf, unsigned char *gb2312)
+utf8_to_gb2312	send_msg_encoding/gb2312_ucs2.c	/^unsigned char *utf8_to_gb2312(const unsigned char *utf, unsigned char *gb2312)$/;"	f	signature:(const unsigned char *utf, unsigned char *gb2312)
+utf8_to_gb2312	send_msg_encoding/gb2312_ucs2.h	/^unsigned char *utf8_to_gb2312(const unsigned char *utf, unsigned char *gb2312);$/;"	p	signature:(const unsigned char *utf, unsigned char *gb2312)
+utf8_to_ucs2	send_message/gb2312_ucs2.c	/^int utf8_to_ucs2( unsigned char *utf8, char *unicode)$/;"	f	signature:( unsigned char *utf8, char *unicode)
+utf8_to_ucs2	send_message/gb2312_ucs2.h	/^int utf8_to_ucs2( unsigned char *utf8, char *unicode);$/;"	p	signature:( unsigned char *utf8, char *unicode)
+utf8_to_ucs2	send_msg_encoding/gb2312_ucs2.c	/^int utf8_to_ucs2(const char *utf8)$/;"	f	signature:(const char *utf8)
+utf8_to_ucs2	send_msg_encoding/gb2312_ucs2.h	/^int utf8_to_ucs2(const char *utf8);$/;"	p	signature:(const char *utf8)
+utf8str_to_ucs2str	send_msg_encoding/gb2312_ucs2.c	/^char *utf8str_to_ucs2str(char *dest, const char *source)$/;"	f	signature:(char *dest, const char *source)
+utf8str_to_ucs2str	send_msg_encoding/gb2312_ucs2.h	/^char *utf8str_to_ucs2str(char *dest, const char *source);$/;"	p	signature:(char *dest, const char *source)
+volume	mplayer_control/mplayer_control.h	/^	int volume;                 	\/\/mplayer音量范围（0-100）$/;"	m	struct:__anon2	access:public
+wait_recvfrom_client	receive_bag.c	/^int wait_recvfrom_client(int sockfd, pool_t *pool)$/;"	f	signature:(int sockfd, pool_t *pool)
+wait_recvfrom_client	receive_bag.h	/^int wait_recvfrom_client(int sockfd, pool_t *pool);	$/;"	p	signature:(int sockfd, pool_t *pool)
+write_cmd_mutex	mplayer_control/mplayer_control.h	/^	pthread_mutex_t write_cmd_mutex;\/\/写命令的命名管道互斥锁$/;"	m	struct:__anon6	access:public
+write_player_cmd	mplayer_control/mplayer_control.c	/^int write_player_cmd(FIFO_FD *fifo, SONG_STATUS *status, const char *cmd)$/;"	f	signature:(FIFO_FD *fifo, SONG_STATUS *status, const char *cmd)

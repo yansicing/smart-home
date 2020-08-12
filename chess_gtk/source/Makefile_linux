@@ -1,0 +1,10 @@
+CC = gcc  
+MAINC = main.c deal_chess.c deal_button.c main_win.c
+EXEC = ../chess_linux
+
+CFLAGS = `pkg-config --cflags --libs gtk+-2.0` -lpthread -lgthread-2.0
+
+main:  
+	$(CC)  $(MAINC)  -o $(EXEC) $(CFLAGS)
+clean:
+	rm $(EXEC) *.o -rf
